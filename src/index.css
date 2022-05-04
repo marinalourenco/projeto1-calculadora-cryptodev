@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundTela {
+  background-color: #49e25d;
+  color: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100vw;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meioCalculadora .calculadora {
+  border-radius: 0.625rem;
+  padding: 2.125rem;
+  background-color: #8A2BE2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculadora h1 {
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+}
+
+table {
+  padding-top: 1.25rem;
+}
+
+.resultado {
+  width: 14.375rem;
+  height: 3.75rem;
+  background-color: #fff;
+  font-size:1.5rem;
+  font-weight: bold;
+  color: black;
+  padding: 0.938rem 0.938rem;
+  text-align: right;
+}
+
+button {
+  width: 3.125rem;
+  height: 3.125rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: #fff;
+  margin: 0.188rem;
+}
+
+button:hover {
+  background-color: purple;
+}
+
